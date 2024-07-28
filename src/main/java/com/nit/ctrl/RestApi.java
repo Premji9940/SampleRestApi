@@ -15,7 +15,7 @@ public class RestApi {
 		log.info("******Welcome Method started***********");
 		log.info("******Welcome Method finished***********");
 	
-		return "<h1 style=color:pink;text-align:center>Welcome to Rest Controller </h1>";
+		return "<h1 style=color:pink;text-align:center>Welcome to Rest Controller for jenkins setup </h1>";
 	}
 	
 	@GetMapping("/wish/{name}")
@@ -24,7 +24,7 @@ public class RestApi {
 		log.info("******Wish Method ended***********");
 
 	
-		return "<h1 style=color:brown;text-align:center>hello how r u </h1>";
+		return "<h1 style=color:brown;text-align:center>hello how r u are you working with jenkins </h1>";
 	}
 	
 
